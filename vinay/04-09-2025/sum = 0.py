@@ -1,0 +1,5 @@
+sum = 0
+for i in range(1,6): #Loop from 1 to 5
+    sum += i #sum=sum+i
+print("Sum:",sum)
+

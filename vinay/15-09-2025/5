@@ -1,0 +1,8 @@
+import array
+arr = array.array('i',[5,10,15,20,25,30])
+slice_arr = arr[:4]
+total = 0
+for num in slice_arr:
+    total += num
+    print("slice array:",slice_arr)
+    print("sum:",total)

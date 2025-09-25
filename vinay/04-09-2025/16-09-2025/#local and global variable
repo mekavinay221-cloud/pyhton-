@@ -1,0 +1,8 @@
+x = 100
+def func():
+    y = 50
+    print("Inside function, x=",x)
+    print("Inside function, y=",y)
+    func()
+print("Outside funtion, x=",x)
+print(y)

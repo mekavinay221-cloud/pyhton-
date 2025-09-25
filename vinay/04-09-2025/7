@@ -1,0 +1,9 @@
+weight = float(input("Enter your weight in kg: "))
+
+if weight < 50:
+    print("Underweight")
+elif 50 <= weight < 80:
+    print("Normal weight")
+else:
+    print("Overweight")
+
